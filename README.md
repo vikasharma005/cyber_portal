@@ -38,7 +38,7 @@ The Cyber Portal is a web application developed for the Police Headquarters to f
 
 2. Set up a local development environment such as XAMPP.
 
-3. Import the database schema from `database.sql` into your MySQL server.
+3. Import the database schema from `registered.sql` into your MySQL server.
 
 4. Update the database connection settings in the PHP files to match your local environment.
 
