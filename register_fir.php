@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // Insert the form data into the "registered" table
-    $sql = "INSERT INTO registered (crimeType, crime, otherCrime, name, email, citizenship) VALUES ('$crimeType', '$crime', '$otherCrime', '$name', '$email', '$citizenship')";
+    $sql = "INSERT INTO register_fir (crimeType, crime, otherCrime, name, email, citizenship) VALUES ('$crimeType', '$crime', '$otherCrime', '$name', '$email', '$citizenship')";
     if (mysqli_query($conn, $sql)) {
         echo "FIR registered successfully.";
     } else {
